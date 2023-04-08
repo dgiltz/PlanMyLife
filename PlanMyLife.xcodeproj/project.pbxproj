@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D80FBB5529E214EE00BA2FDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FBB5429E214EE00BA2FDC /* AppDelegate.swift */; };
+		D80FBB5729E214EE00BA2FDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FBB5629E214EE00BA2FDC /* SceneDelegate.swift */; };
+		D80FBB5929E214EE00BA2FDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FBB5829E214EE00BA2FDC /* ViewController.swift */; };
+		D80FBB5C29E214EE00BA2FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80FBB5A29E214EE00BA2FDC /* Main.storyboard */; };
+		D80FBB5E29E214F000BA2FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80FBB5D29E214F000BA2FDC /* Assets.xcassets */; };
+		D80FBB6129E214F000BA2FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80FBB5F29E214F000BA2FDC /* LaunchScreen.storyboard */; };
+		D80FBB6C29E214F100BA2FDC /* PlanMyLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FBB6B29E214F100BA2FDC /* PlanMyLifeTests.swift */; };
+		D80FBB7629E214F100BA2FDC /* PlanMyLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FBB7529E214F100BA2FDC /* PlanMyLifeUITests.swift */; };
+		D80FBB7829E214F100BA2FDC /* PlanMyLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FBB7729E214F100BA2FDC /* PlanMyLifeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D80FBB6829E214F100BA2FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80FBB4929E214EE00BA2FDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80FBB5029E214EE00BA2FDC;
+			remoteInfo = PlanMyLife;
+		};
+		D80FBB7229E214F100BA2FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80FBB4929E214EE00BA2FDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80FBB5029E214EE00BA2FDC;
+			remoteInfo = PlanMyLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D80FBB5129E214EE00BA2FDC /* PlanMyLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanMyLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80FBB5429E214EE00BA2FDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D80FBB5629E214EE00BA2FDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D80FBB5829E214EE00BA2FDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D80FBB5B29E214EE00BA2FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D80FBB5D29E214F000BA2FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80FBB6029E214F000BA2FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D80FBB6229E214F000BA2FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80FBB6729E214F100BA2FDC /* PlanMyLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanMyLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80FBB6B29E214F100BA2FDC /* PlanMyLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanMyLifeTests.swift; sourceTree = "<group>"; };
+		D80FBB7129E214F100BA2FDC /* PlanMyLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanMyLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80FBB7529E214F100BA2FDC /* PlanMyLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanMyLifeUITests.swift; sourceTree = "<group>"; };
+		D80FBB7729E214F100BA2FDC /* PlanMyLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanMyLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80FBB4E29E214EE00BA2FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80FBB6429E214F100BA2FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80FBB6E29E214F100BA2FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D80FBB4829E214EE00BA2FDC = {
+			isa = PBXGroup;
+			children = (
+				D80FBB5329E214EE00BA2FDC /* PlanMyLife */,
+				D80FBB6A29E214F100BA2FDC /* PlanMyLifeTests */,
+				D80FBB7429E214F100BA2FDC /* PlanMyLifeUITests */,
+				D80FBB5229E214EE00BA2FDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D80FBB5229E214EE00BA2FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80FBB5129E214EE00BA2FDC /* PlanMyLife.app */,
+				D80FBB6729E214F100BA2FDC /* PlanMyLifeTests.xctest */,
+				D80FBB7129E214F100BA2FDC /* PlanMyLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80FBB5329E214EE00BA2FDC /* PlanMyLife */ = {
+			isa = PBXGroup;
+			children = (
+				D80FBB5429E214EE00BA2FDC /* AppDelegate.swift */,
+				D80FBB5629E214EE00BA2FDC /* SceneDelegate.swift */,
+				D80FBB5829E214EE00BA2FDC /* ViewController.swift */,
+				D80FBB5A29E214EE00BA2FDC /* Main.storyboard */,
+				D80FBB5D29E214F000BA2FDC /* Assets.xcassets */,
+				D80FBB5F29E214F000BA2FDC /* LaunchScreen.storyboard */,
+				D80FBB6229E214F000BA2FDC /* Info.plist */,
+			);
+			path = PlanMyLife;
+			sourceTree = "<group>";
+		};
+		D80FBB6A29E214F100BA2FDC /* PlanMyLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D80FBB6B29E214F100BA2FDC /* PlanMyLifeTests.swift */,
+			);
+			path = PlanMyLifeTests;
+			sourceTree = "<group>";
+		};
+		D80FBB7429E214F100BA2FDC /* PlanMyLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D80FBB7529E214F100BA2FDC /* PlanMyLifeUITests.swift */,
+				D80FBB7729E214F100BA2FDC /* PlanMyLifeUITestsLaunchTests.swift */,
+			);
+			path = PlanMyLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80FBB5029E214EE00BA2FDC /* PlanMyLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80FBB7B29E214F100BA2FDC /* Build configuration list for PBXNativeTarget "PlanMyLife" */;
+			buildPhases = (
+				D80FBB4D29E214EE00BA2FDC /* Sources */,
+				D80FBB4E29E214EE00BA2FDC /* Frameworks */,
+				D80FBB4F29E214EE00BA2FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanMyLife;
+			productName = PlanMyLife;
+			productReference = D80FBB5129E214EE00BA2FDC /* PlanMyLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D80FBB6629E214F100BA2FDC /* PlanMyLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80FBB7E29E214F100BA2FDC /* Build configuration list for PBXNativeTarget "PlanMyLifeTests" */;
+			buildPhases = (
+				D80FBB6329E214F100BA2FDC /* Sources */,
+				D80FBB6429E214F100BA2FDC /* Frameworks */,
+				D80FBB6529E214F100BA2FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80FBB6929E214F100BA2FDC /* PBXTargetDependency */,
+			);
+			name = PlanMyLifeTests;
+			productName = PlanMyLifeTests;
+			productReference = D80FBB6729E214F100BA2FDC /* PlanMyLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D80FBB7029E214F100BA2FDC /* PlanMyLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80FBB8129E214F100BA2FDC /* Build configuration list for PBXNativeTarget "PlanMyLifeUITests" */;
+			buildPhases = (
+				D80FBB6D29E214F100BA2FDC /* Sources */,
+				D80FBB6E29E214F100BA2FDC /* Frameworks */,
+				D80FBB6F29E214F100BA2FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80FBB7329E214F100BA2FDC /* PBXTargetDependency */,
+			);
+			name = PlanMyLifeUITests;
+			productName = PlanMyLifeUITests;
+			productReference = D80FBB7129E214F100BA2FDC /* PlanMyLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80FBB4929E214EE00BA2FDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D80FBB5029E214EE00BA2FDC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D80FBB6629E214F100BA2FDC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D80FBB5029E214EE00BA2FDC;
+					};
+					D80FBB7029E214F100BA2FDC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D80FBB5029E214EE00BA2FDC;
+					};
+				};
+			};
+			buildConfigurationList = D80FBB4C29E214EE00BA2FDC /* Build configuration list for PBXProject "PlanMyLife" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80FBB4829E214EE00BA2FDC;
+			productRefGroup = D80FBB5229E214EE00BA2FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80FBB5029E214EE00BA2FDC /* PlanMyLife */,
+				D80FBB6629E214F100BA2FDC /* PlanMyLifeTests */,
+				D80FBB7029E214F100BA2FDC /* PlanMyLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80FBB4F29E214EE00BA2FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80FBB6129E214F000BA2FDC /* LaunchScreen.storyboard in Resources */,
+				D80FBB5E29E214F000BA2FDC /* Assets.xcassets in Resources */,
+				D80FBB5C29E214EE00BA2FDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80FBB6529E214F100BA2FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80FBB6F29E214F100BA2FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80FBB4D29E214EE00BA2FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80FBB5929E214EE00BA2FDC /* ViewController.swift in Sources */,
+				D80FBB5529E214EE00BA2FDC /* AppDelegate.swift in Sources */,
+				D80FBB5729E214EE00BA2FDC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80FBB6329E214F100BA2FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80FBB6C29E214F100BA2FDC /* PlanMyLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80FBB6D29E214F100BA2FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80FBB7629E214F100BA2FDC /* PlanMyLifeUITests.swift in Sources */,
+				D80FBB7829E214F100BA2FDC /* PlanMyLifeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D80FBB6929E214F100BA2FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80FBB5029E214EE00BA2FDC /* PlanMyLife */;
+			targetProxy = D80FBB6829E214F100BA2FDC /* PBXContainerItemProxy */;
+		};
+		D80FBB7329E214F100BA2FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80FBB5029E214EE00BA2FDC /* PlanMyLife */;
+			targetProxy = D80FBB7229E214F100BA2FDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D80FBB5A29E214EE00BA2FDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80FBB5B29E214EE00BA2FDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D80FBB5F29E214F000BA2FDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80FBB6029E214F000BA2FDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80FBB7929E214F100BA2FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D80FBB7A29E214F100BA2FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80FBB7C29E214F100BA2FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GTA2LZ6F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlanMyLife/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dgiltz.PlanMyLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D80FBB7D29E214F100BA2FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GTA2LZ6F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlanMyLife/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dgiltz.PlanMyLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D80FBB7F29E214F100BA2FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GTA2LZ6F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dgiltz.PlanMyLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanMyLife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlanMyLife";
+			};
+			name = Debug;
+		};
+		D80FBB8029E214F100BA2FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GTA2LZ6F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dgiltz.PlanMyLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanMyLife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlanMyLife";
+			};
+			name = Release;
+		};
+		D80FBB8229E214F100BA2FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GTA2LZ6F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dgiltz.PlanMyLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlanMyLife;
+			};
+			name = Debug;
+		};
+		D80FBB8329E214F100BA2FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GTA2LZ6F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dgiltz.PlanMyLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlanMyLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80FBB4C29E214EE00BA2FDC /* Build configuration list for PBXProject "PlanMyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80FBB7929E214F100BA2FDC /* Debug */,
+				D80FBB7A29E214F100BA2FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80FBB7B29E214F100BA2FDC /* Build configuration list for PBXNativeTarget "PlanMyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80FBB7C29E214F100BA2FDC /* Debug */,
+				D80FBB7D29E214F100BA2FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80FBB7E29E214F100BA2FDC /* Build configuration list for PBXNativeTarget "PlanMyLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80FBB7F29E214F100BA2FDC /* Debug */,
+				D80FBB8029E214F100BA2FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80FBB8129E214F100BA2FDC /* Build configuration list for PBXNativeTarget "PlanMyLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80FBB8229E214F100BA2FDC /* Debug */,
+				D80FBB8329E214F100BA2FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80FBB4929E214EE00BA2FDC /* Project object */;
+}
