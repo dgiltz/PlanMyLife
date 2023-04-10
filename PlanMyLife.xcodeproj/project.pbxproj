@@ -16,6 +16,7 @@
 		D80FBB6C29E214F100BA2FDC /* PlanMyLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FBB6B29E214F100BA2FDC /* PlanMyLifeTests.swift */; };
 		D80FBB7629E214F100BA2FDC /* PlanMyLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FBB7529E214F100BA2FDC /* PlanMyLifeUITests.swift */; };
 		D80FBB7829E214F100BA2FDC /* PlanMyLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FBB7729E214F100BA2FDC /* PlanMyLifeUITestsLaunchTests.swift */; };
+		D80FBB8529E2152500BA2FDC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FBB8429E2152500BA2FDC /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D80FBB7129E214F100BA2FDC /* PlanMyLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanMyLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80FBB7529E214F100BA2FDC /* PlanMyLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanMyLifeUITests.swift; sourceTree = "<group>"; };
 		D80FBB7729E214F100BA2FDC /* PlanMyLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanMyLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D80FBB8429E2152500BA2FDC /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				D80FBB5429E214EE00BA2FDC /* AppDelegate.swift */,
+				D80FBB8429E2152500BA2FDC /* Task.swift */,
 				D80FBB5629E214EE00BA2FDC /* SceneDelegate.swift */,
 				D80FBB5829E214EE00BA2FDC /* ViewController.swift */,
 				D80FBB5A29E214EE00BA2FDC /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80FBB8529E2152500BA2FDC /* Task.swift in Sources */,
 				D80FBB5929E214EE00BA2FDC /* ViewController.swift in Sources */,
 				D80FBB5529E214EE00BA2FDC /* AppDelegate.swift in Sources */,
 				D80FBB5729E214EE00BA2FDC /* SceneDelegate.swift in Sources */,
